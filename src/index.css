@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.wrapper {
+  height: 100vh;
+}
+.bio {
+  font-family: 'Montserrat', sans-serif;
+}
+.bg {
+  background-image: url('/public/img/bg.jpg');
+  height: 100vh;
+  background-size: cover;
+  filter: blur(2px)
+}
+
+body {
+  background-color: #1b1a20;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  margin: 200px auto;
+  max-width: 1000px;
+}
+
+.main {
+  margin-top: 10px;
+  width: 700px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #131516;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #7e22ce;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7e22ce;
+}
+
+
+
+
+/*
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*/
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
